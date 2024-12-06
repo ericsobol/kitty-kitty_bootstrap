@@ -1,0 +1,124 @@
+
+
+.header {
+  background-color: #EBEBEB;
+  padding: 15px;
+  text-align: center;
+}
+.content {
+  margin-top: 10px;
+  flex: 1; /* Контент занимает доступное пространство */
+}
+.brand_logo-nav {
+  border-radius: 50%;
+  background-color: gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #EBEBEB;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer {
+  background-color: #343a40; 
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; 
+  width: 100%; 
+  box-sizing: border-box;
+  height: 300px;
+}
+
+.footer p {
+  margin: 0; 
+  font-size: 0.9rem; 
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 15px 10px; 
+  }
+}
+
+h2 {
+  text-align: center;
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+
+.carousel {
+  max-height: 600px; 
+  overflow: hidden; 
+}
+
+
+.carousel-inner img {
+  height: auto; 
+  max-height: 100%; 
+  width: 100%; 
+  object-fit: cover; 
+}
+.dre h5 {
+  margin-left: 0;
+}
+.logo-container {
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.shelter_icon {
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    margin-left: 45%;
+  }
+
+@media (max-width: 768px) {
+  .logo-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 0 auto; 
+    position: relative; 
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .donate {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 760px){
+    .shelter_icon {
+        margin-left: 10px;
+    }
+}
+
+.donate {
+  margin-top: 40px;
+  text-align: center;
+  bottom: 0; 
+  border-top: 1px dashed #ddd;
+}
+.donate > p {
+  font-size: 1.7rem;
+  padding-top: 10px;
+  font-weight: 500;
+}
+.gender {
+  margin-top: 15px;
+}
+
